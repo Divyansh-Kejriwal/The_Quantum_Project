@@ -1,6 +1,23 @@
+# === Core Math & Scientific Libraries ===
 numpy
-matplotlib
 scipy
 sympy
+
+# === Data Handling & Plotting ===
+matplotlib
+pandas
+seaborn
+
+# === Quantum Physics & Simulation ===
+qutip        # Quantum toolbox for Python
+numba        # For fast computation (JIT)
+mpmath       # Arbitrary precision arithmetic
+
+# === Interactive & Notebook Tools ===
 jupyter
-qutip
+notebook
+ipython
+
+# === Utility Tools ===
+tqdm         # Progress bars for loops
+rich         # Beautiful console printing
