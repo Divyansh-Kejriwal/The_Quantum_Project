@@ -16,4 +16,10 @@ plt.yticks([1,2,3,4,5,6,7,8,9,10])          ## -----> The unit of Y-axis changes
 
 plt.legend()                                ## -----> puts a legend on the graph
 
+"""Another Line"""
+
+data_1 = np.arange(0,4.5,0.5)
+plt.plot(data_1 , data_1**2 ,label = "Parabola", linewidth = 2, linestyle = '--', marker = '.', markeredgecolor = 'red')     ## -----> display properties of line
+plt.legend()                                ## -----> Puts legend on the other line
+
 plt.show()                                  ## -----> Used to display a graph
