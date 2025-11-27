@@ -22,4 +22,9 @@ data_1 = np.arange(0,4.5,0.5)
 plt.plot(data_1 , data_1**2 ,label = "Parabola", linewidth = 2, linestyle = '--', marker = '.', markeredgecolor = 'red')     ## -----> display properties of line
 plt.legend()                                ## -----> Puts legend on the other line
 
+"""Playing with graph properties"""
+data_2 = np.arange(0,5)
+plt.plot(data_2[:3], data_2[:3]**3, 'r')        ## -----> in this case the first 2 values are used to create a graph and shorthand notation is used for changing its properties
+plt.plot(data_2[2:], data_2[2:]**3, 'r--')      ## -----> in this from second to the last values are taken with different properties giving a vanishing line effect
+
 plt.show()                                  ## -----> Used to display a graph
